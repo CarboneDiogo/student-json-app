@@ -53,7 +53,7 @@ const Form = () => {
         title={" First Name"}
         type={"text"}
         id={"first_name"}
-        placeholder={"Enter  first name"}
+        placeholder={"Enter first name"}
         value={newStudent.first_name}
         onChange={handleChange}
         classes={formFieldClasses}
@@ -64,7 +64,7 @@ const Form = () => {
         title={" Last Name"}
         type={"text"}
         id={"last_name"}
-        placeholder={"Enter  last name"}
+        placeholder={"Enter last name"}
         value={newStudent.last_name}
         onChange={handleChange}
         classes={formFieldClasses}
